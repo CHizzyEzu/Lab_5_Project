@@ -8,7 +8,6 @@
 #include <ctime>
 #include <string>
 #include <fstream>
-#include <limits>
 using namespace std;
 
 int main()
@@ -45,7 +44,7 @@ int main()
             outputFile << endl;
 
         else
-            outputFile << " "; // File closes
+            outputFile << " "; // spaces added between lines
     }
 
     outputFile.close(); // File closes
